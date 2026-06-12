@@ -2,24 +2,24 @@
 
 Custom Comix build for Tachimanga / Mihon with iOS-focused fixes.
 
-## Add this repository in Tachimanga
+## Install on Tachimanga (iPad/iPhone)
 
-**Recommended (CDN, updates faster):**
+### Option 1 — Manual install (most reliable)
 
-```
-https://cdn.jsdelivr.net/gh/joclio/extensions@main/index.min.json
-```
+1. Uninstall any existing **Comix** extension in Tachimanga first.
+2. Open the latest release on your iPad:  
+   **https://github.com/joclio/extensions/releases/latest**
+3. Download **tachiyomi-en.comix-v1.4.40.apk**
+4. Open it with **Tachimanga** and trust the extension.
 
-**Alternative (GitHub raw):**
+### Option 2 — Extension repository
+
+Use this URL (**GitHub raw**, not jsdelivr):
 
 ```
 https://raw.githubusercontent.com/joclio/extensions/main/index.min.json
 ```
 
-Then: **Browse → Extensions → refresh icon** (wait ~30 seconds).
+Then: remove any old repo entry → force-close Tachimanga → reopen → add URL → **Browse → Extensions → refresh**.
 
-If the version does not change: remove the repo, force-close Tachimanga, reopen, add the URL again, refresh.
-
-## Manual install
-
-Download the latest APK from [Releases](https://github.com/joclio/extensions/releases) and open it in Tachimanga.
+**Do not use v1.4.38** — it crashes on Tachimanga with "internal server error".
