@@ -9,7 +9,7 @@ Custom Comix build for Tachimanga / Mihon with iOS-focused fixes.
 1. Uninstall any existing **Comix** extension in Tachimanga first.
 2. Open the latest release on your iPad:  
    **https://github.com/joclio/extensions/releases/latest**
-3. Download **tachiyomi-en.comix-v1.4.40.apk**
+3. Download **tachiyomi-en.comix-v1.4.43.apk**
 4. Open it with **Tachimanga** and trust the extension.
 
 ### Option 2 — Extension repository
