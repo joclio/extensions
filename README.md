@@ -1,25 +1,33 @@
-# Comix extension (custom)
+# Comix extension (joclio)
 
-Custom Comix build for Tachimanga / Mihon with iOS-focused fixes.
+Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** with room for small joclio-only fixes on top.
+
+**Current base:** Keiyoushi **v1.4.30** ([#16655](https://github.com/keiyoushi/extensions-source/pull/16655) — WebView chapter capture, 403 fix).
+
+**joclio build:** **v1.4.31** (`extVersionCode` 31) — same upstream code; version bumped so this repo stays distinct from the official catalog.
 
 ## Install on Tachimanga (iPad/iPhone)
 
-### Option 1 — Manual install (most reliable)
-
-1. Uninstall any existing **Comix** extension in Tachimanga first.
-2. Open the latest release on your iPad:  
-   **https://github.com/joclio/extensions/releases/latest**
-3. Download **tachiyomi-en.comix-v1.4.44.apk**
-4. Open it with **Tachimanga** and trust the extension.
-
-### Option 2 — Extension repository
-
-Use this URL (**GitHub raw**, not jsdelivr):
+### Extension repository (recommended)
 
 ```
 https://raw.githubusercontent.com/joclio/extensions/main/index.min.json
 ```
 
-Then: remove any old repo entry → force-close Tachimanga → reopen → add URL → **Browse → Extensions → refresh**.
+Remove any old repo entry → force-close Tachimanga → reopen → add URL → **Browse → Extensions → refresh**.
 
-**Do not use v1.4.38** — it crashes on Tachimanga with "internal server error".
+### Manual install
+
+https://github.com/joclio/extensions/releases/latest
+
+Uninstall any older **Comix** first (especially pre-1.4.30 custom builds).
+
+## Official Keiyoushi repo
+
+If you only need stock Comix with no joclio patches:
+
+```
+https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json
+```
+
+Use **one** repo at a time to avoid version confusion.
