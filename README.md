@@ -4,7 +4,7 @@ Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** wit
 
 **Current base:** Keiyoushi **v1.4.30** ([#16655](https://github.com/keiyoushi/extensions-source/pull/16655) — WebView chapter capture, 403 fix).
 
-**joclio build:** **v1.4.32** (`extVersionCode` 32) — image Cloudflare fixes on top of Keiyoushi v1.4.30.
+**joclio build:** **v1.4.33** (`extVersionCode` 33) — image Cloudflare fixes on top of Keiyoushi v1.4.30.
 
 ## Install on Tachimanga (iPad/iPhone)
 
