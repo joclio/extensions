@@ -2,7 +2,7 @@
 
 Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (`cfc019928`, extension **1.6.53**).
 
-**joclio build:** **v1.6.56** (`versionCode` 106056). Same source as Keiyoushi 1.6.53, plus a workaround for [HTTP 503 / “Third-party apps are not supported”](https://github.com/keiyoushi/extensions-source/issues/20134). The OkHttp client setup is simplified so Tachimanga does not hit `JVMVRFY021` while loading the extension.
+**joclio build:** **v1.6.57** (`versionCode` 106057). Same source as Keiyoushi 1.6.53, plus a workaround for [HTTP 503 / “Third-party apps are not supported”](https://github.com/keiyoushi/extensions-source/issues/20134). The OkHttp client is built without Kotlin’s `client_delegate$lambda$0`, which Tachimanga rejects with `JVMVRFY021`.
 
 ## Install on Tachimanga (iPad/iPhone)
 
