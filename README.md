@@ -1,10 +1,8 @@
 # Comix extension (joclio)
 
-Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** with room for small joclio-only fixes on top.
+Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (`cfc019928`, extension **1.6.53**).
 
-**Current base:** Keiyoushi **v1.4.30** ([#16655](https://github.com/keiyoushi/extensions-source/pull/16655) — WebView chapter capture, 403 fix).
-
-**joclio build:** **v1.4.33** (`extVersionCode` 33) — image Cloudflare fixes on top of Keiyoushi v1.4.30.
+**joclio build:** **v1.6.55** (`versionCode` 106055). Same source as Keiyoushi 1.6.53, plus a workaround for [HTTP 503 / “Third-party apps are not supported”](https://github.com/keiyoushi/extensions-source/issues/20134): requests use a normal browser user agent, and a blocked page is reloaded in WebView without the app package header.
 
 ## Install on Tachimanga (iPad/iPhone)
 
@@ -20,7 +18,7 @@ Remove any old repo entry → force-close Tachimanga → reopen → add URL → 
 
 https://github.com/joclio/extensions/releases/latest
 
-Uninstall any older **Comix** first (especially pre-1.4.30 custom builds).
+Uninstall any older **Comix** first if the update does not replace it.
 
 ## Official Keiyoushi repo
 
