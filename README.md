@@ -12,7 +12,7 @@ Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (`c
 https://raw.githubusercontent.com/joclio/extensions/main/index.min.json
 ```
 
-Remove any old repo entry → force-close Tachimanga → reopen → add URL → **Browse → Extensions → refresh**.
+Needs Tachimanga **4.16 or newer** (extension library 1.6). Remove the repo entry → force-close Tachimanga → reopen → add the URL again → **Browse → Extensions → refresh**. Turn on NSFW sources if Comix is still hidden.
 
 ### Manual install
 
