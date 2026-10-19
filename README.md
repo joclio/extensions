@@ -2,7 +2,7 @@
 
 Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (`cfc019928`, extension **1.6.53**).
 
-**joclio build:** **v1.6.69** (`versionCode` 106069). Same source as Keiyoushi 1.6.53, plus a workaround for [HTTP 503 / “Third-party apps are not supported”](https://github.com/keiyoushi/extensions-source/issues/20134). `getMangaUpdate` only forwards the chapter fetch, so no register is reused.
+**joclio build:** **v1.6.70** (`versionCode` 106070). Same source as Keiyoushi 1.6.53, plus a workaround for [HTTP 503 / “Third-party apps are not supported”](https://github.com/keiyoushi/extensions-source/issues/20134). `getSearchManga` forwards to the search list so Tachimanga does not reject that method with `JVMVRFY021`.
 
 ## Install on Tachimanga (iPad/iPhone)
 
