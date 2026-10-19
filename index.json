@@ -1,17 +1,34 @@
 ﻿{
-    "name": "Tachiyomi: Comix",
-    "pkg": "eu.kanade.tachiyomi.extension.en.comix",
-    "apk": "tachiyomi-en.comix-v1.6.96.apk",
-    "lang": "en",
-    "code": 106096,
-    "version": "1.6.96",
-    "nsfw": 1,
-    "sources": [
-        {
-            "name": "Comix",
-            "lang": "en",
+  "name": "Comix",
+  "badgeLabel": "Comix",
+  "signingKey": "b63c928bbcaa5f191cb0ffcccae7470e2349ebf59b3a1230b8e9dabf486996fe",
+  "contact": {
+    "website": "https://github.com/joclio/extensions"
+  },
+  "extensionList": {
+    "extensions": [
+      {
+        "name": "Comix",
+        "packageName": "eu.kanade.tachiyomi.extension.en.comix",
+        "resources": {
+          "apkUrl": "https://github.com/joclio/extensions/releases/download/v1.6.97/tachiyomi-en.comix-v1.6.97.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/comix/res/mipmap-xhdpi/ic_launcher.png",
+          "jarUrl": "https://github.com/joclio/extensions/releases/download/v1.6.97/tachiyomi-en.comix-v1.6.97.jar"
+        },
+        "extensionLib": "1.6",
+        "versionCode": "106097",
+        "versionName": "1.6.97",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
             "id": "7537715367149829912",
-            "baseUrl": "https://comix.to"
-        }
+            "name": "Comix",
+            "language": "en",
+            "homeUrl": "https://comix.to",
+            "mirrorUrls": ["https://comix.to", "https://comix.ws"]
+          }
+        ]
+      }
     ]
+  }
 }
