@@ -2,7 +2,7 @@
 
 Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (`cfc019928`, extension **1.6.53**).
 
-**joclio build:** **v1.6.76** (`versionCode` 106076). Same source as Keiyoushi 1.6.53, plus a workaround for [HTTP 503 / “Third-party apps are not supported”](https://github.com/keiyoushi/extensions-source/issues/20134). `blockedGenres` returns an empty set so Tachimanga does not reject that method with `JVMVRFY021`. Saved blocked genres are not applied in this build.
+**joclio build:** **v1.6.77** (`versionCode` 106077). Same source as Keiyoushi 1.6.53, plus a workaround for [HTTP 503 / “Third-party apps are not supported”](https://github.com/keiyoushi/extensions-source/issues/20134). `buildPages` returns an empty list so Tachimanga does not reject that method with `JVMVRFY021`. Chapter pages are empty in this build.
 
 ## Install on Tachimanga (iPad/iPhone)
 
