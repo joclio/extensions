@@ -1,8 +1,8 @@
 # Comix extension (joclio)
 
-Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (`cfc019928`, extension **1.6.53**).
+Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (published extension **1.6.54**).
 
-**joclio build:** **v1.6.94** (`versionCode` 106094). Same source as Keiyoushi 1.6.53, plus a workaround for [HTTP 503 / “Third-party apps are not supported”](https://github.com/keiyoushi/extensions-source/issues/20134). Every Comix method that mixed a number and an object in one register was simplified so Tachimanga can verify the class. Search, chapter ids, and page lists are empty or defaulted in this build.
+**joclio build:** **v1.6.95** (`versionCode` 106095). This is the unmodified [Keiyoushi Comix 1.6.54](https://github.com/keiyoushi/extensions/releases/download/24bd7e6/tachiyomi-en.comix-v1.6.54.apk), re-signed for this repo. The version number is higher only so it replaces the earlier patched builds.
 
 ## Install on Tachimanga (iPad/iPhone)
 
