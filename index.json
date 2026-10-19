@@ -11,13 +11,13 @@
         "name": "Comix",
         "packageName": "eu.kanade.tachiyomi.extension.en.comix",
         "resources": {
-          "apkUrl": "https://github.com/joclio/extensions/releases/download/v1.6.105/tachiyomi-en.comix-v1.6.105.jar",
+          "apkUrl": "https://github.com/joclio/extensions/releases/download/v1.6.106/tachiyomi-en.comix-v1.6.106.jar",
           "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/comix/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://github.com/joclio/extensions/releases/download/v1.6.105/tachiyomi-en.comix-v1.6.105.jar"
+          "jarUrl": "https://github.com/joclio/extensions/releases/download/v1.6.106/tachiyomi-en.comix-v1.6.106.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "106105",
-        "versionName": "1.6.105",
+        "versionCode": "106106",
+        "versionName": "1.6.106",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {

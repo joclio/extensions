@@ -2,7 +2,7 @@
 
 Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (published extension **1.6.54**).
 
-**joclio build:** **v1.6.105** (`versionCode` 106105). Keiyoushi Comix jar, re-signed, with the chapter-page client lookup fixed for [issue 20166](https://github.com/keiyoushi/extensions-source/issues/20166). Chapter updates watch the site's live chapter method, and large page data is split so Tachimanga can parse it.
+**joclio build:** **v1.6.106** (`versionCode` 106106). Keiyoushi Comix jar, re-signed, with the chapter-page client lookup fixed for [issue 20166](https://github.com/keiyoushi/extensions-source/issues/20166). Chapter updates watch the site's live chapter method, and large page data is split so Tachimanga can parse it.
 
 ## Install on Tachimanga (iPad/iPhone)
 
@@ -12,7 +12,7 @@ Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (pu
 https://raw.githubusercontent.com/joclio/extensions/main/index.pb
 ```
 
-Needs Tachimanga **4.16 or newer** (extension library 1.6). Remove the repo entry → force-close Tachimanga → reopen → add the URL again → **Browse → Extensions → refresh**. Install **Comix English 1.6.105**. Uninstall any older Comix first, including the Keiyoushi **1.6.54** row, so only one copy is loaded. The `index.min.json` address now downloads this same jar.
+Needs Tachimanga **4.16 or newer** (extension library 1.6). Remove the repo entry → force-close Tachimanga → reopen → add the URL again → **Browse → Extensions → refresh**. Install **Comix English 1.6.106**. Uninstall any older Comix first, including the Keiyoushi **1.6.54** row, so only one copy is loaded. The `index.min.json` address now downloads this same jar.
 
 ### Manual install
 
