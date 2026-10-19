@@ -2,7 +2,7 @@
 
 Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (`cfc019928`, extension **1.6.53**).
 
-**joclio build:** **v1.6.73** (`versionCode` 106073). Same source as Keiyoushi 1.6.53, plus a workaround for [HTTP 503 / “Third-party apps are not supported”](https://github.com/keiyoushi/extensions-source/issues/20134). `applyPreferenceFilters` no longer widens a list into another type in the same register, so Tachimanga does not reject that method with `JVMVRFY021`.
+**joclio build:** **v1.6.74** (`versionCode` 106074). Same source as Keiyoushi 1.6.53, plus a workaround for [HTTP 503 / “Third-party apps are not supported”](https://github.com/keiyoushi/extensions-source/issues/20134). `applyPreferenceFilters` returns immediately so Tachimanga does not reject that method with `JVMVRFY021`. Preference filters are not added to browse or search URLs in this build.
 
 ## Install on Tachimanga (iPad/iPhone)
 
