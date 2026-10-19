@@ -2,7 +2,7 @@
 
 Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (published extension **1.6.54**).
 
-**joclio build:** **v1.6.97** (`versionCode` 106097). This is the Keiyoushi Comix **jar** (the file Tachimanga runs) and the matching apk, re-signed for this repo. The version number is higher only so it replaces the earlier patched builds.
+**joclio build:** **v1.6.98** (`versionCode` 106098). This is the Keiyoushi Comix **jar**, the file Tachimanga runs, re-signed for this repo.
 
 ## Install on Tachimanga (iPad/iPhone)
 
@@ -12,9 +12,7 @@ Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (pu
 https://raw.githubusercontent.com/joclio/extensions/main/index.pb
 ```
 
-Needs Tachimanga **4.16 or newer** (extension library 1.6). Remove the repo entry → force-close Tachimanga → reopen → add the URL again → **Browse → Extensions → refresh**. Install **Comix English 1.6.97 Misto**. Uninstall any older Comix first, including the Keiyoushi **1.6.54** row, so only one copy is loaded.
-
-The older `index.min.json` address still lists this extension, but it installs the apk. Use `index.pb` so Tachimanga installs the jar.
+Needs Tachimanga **4.16 or newer** (extension library 1.6). Remove the repo entry → force-close Tachimanga → reopen → add the URL again → **Browse → Extensions → refresh**. Install **Comix English 1.6.98**. Uninstall any older Comix first, including the Keiyoushi **1.6.54** row, so only one copy is loaded. The `index.min.json` address now downloads this same jar.
 
 ### Manual install
 
