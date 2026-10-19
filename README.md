@@ -2,7 +2,7 @@
 
 Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (`cfc019928`, extension **1.6.53**).
 
-**joclio build:** **v1.6.58** (`versionCode` 106058). Same source as Keiyoushi 1.6.53, plus a workaround for [HTTP 503 / “Third-party apps are not supported”](https://github.com/keiyoushi/extensions-source/issues/20134). The OkHttp client method no longer reuses the register Tachimanga’s verifier rejects (`JVMVRFY021`).
+**joclio build:** **v1.6.59** (`versionCode` 106059). Same source as Keiyoushi 1.6.53, plus a workaround for [HTTP 503 / “Third-party apps are not supported”](https://github.com/keiyoushi/extensions-source/issues/20134). `getMangasByUrl$suspendImpl` no longer reuses one register as both a number and an object, which Tachimanga rejects with `JVMVRFY021`.
 
 ## Install on Tachimanga (iPad/iPhone)
 
