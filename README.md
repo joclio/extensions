@@ -2,7 +2,7 @@
 
 Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (`cfc019928`, extension **1.6.53**).
 
-**joclio build:** **v1.6.62** (`versionCode` 106062). Same source as Keiyoushi 1.6.53, plus a workaround for [HTTP 503 / “Third-party apps are not supported”](https://github.com/keiyoushi/extensions-source/issues/20134). `readFilterCacheState` no longer uses a numeric zero as an object, which Tachimanga rejects with `JVMVRFY021`.
+**joclio build:** **v1.6.63** (`versionCode` 106063). Same source as Keiyoushi 1.6.53, plus a workaround for [HTTP 503 / “Third-party apps are not supported”](https://github.com/keiyoushi/extensions-source/issues/20134). `readFilterCacheState` is now a straight-line method with one type per register, which is what Tachimanga's `JVMVRFY021` check requires.
 
 ## Install on Tachimanga (iPad/iPhone)
 
