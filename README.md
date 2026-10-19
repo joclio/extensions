@@ -2,7 +2,7 @@
 
 Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (`cfc019928`, extension **1.6.53**).
 
-**joclio build:** **v1.6.90** (`versionCode` 106090). Same source as Keiyoushi 1.6.53, plus a workaround for [HTTP 503 / “Third-party apps are not supported”](https://github.com/keiyoushi/extensions-source/issues/20134). Every Comix method that mixed a number and an object in one register was simplified so Tachimanga can verify the class. Search, chapter ids, and page lists are empty or defaulted in this build.
+**joclio build:** **v1.6.91** (`versionCode` 106091). Same source as Keiyoushi 1.6.53, plus a workaround for [HTTP 503 / “Third-party apps are not supported”](https://github.com/keiyoushi/extensions-source/issues/20134). Every Comix method that mixed a number and an object in one register was simplified so Tachimanga can verify the class. Search, chapter ids, and page lists are empty or defaulted in this build.
 
 ## Install on Tachimanga (iPad/iPhone)
 

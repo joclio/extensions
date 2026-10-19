@@ -1,10 +1,10 @@
 ﻿{
     "name": "Tachiyomi: Comix",
     "pkg": "eu.kanade.tachiyomi.extension.en.comix",
-    "apk": "tachiyomi-en.comix-v1.6.90.apk",
+    "apk": "tachiyomi-en.comix-v1.6.91.apk",
     "lang": "en",
-    "code": 106090,
-    "version": "1.6.90",
+    "code": 106091,
+    "version": "1.6.91",
     "nsfw": 1,
     "sources": [
         {
