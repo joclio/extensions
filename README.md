@@ -2,7 +2,7 @@
 
 Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (published extension **1.6.54**).
 
-**joclio build:** **v1.6.124** (`versionCode` 106124). Same WebView/reader as 1.6.119. Clears bad chapter-list flags left by 1.6.120–122 (`complete: false`) that disabled fast refresh and left series stuck (e.g. Reborn Rich at 195).
+**joclio build:** **v1.6.125** (`versionCode` 106125). Same WebView/reader as 1.6.119. Keeps walking after the first already-owned chapter so lagging groups (e.g. Webtoon behind HiveToons/QI) still get picked up.
 
 ## Install on Tachimanga (iPad/iPhone)
 
@@ -12,7 +12,7 @@ Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (pu
 https://raw.githubusercontent.com/joclio/extensions/main/index.pb
 ```
 
-Needs Tachimanga **4.16 or newer** (extension library 1.6). Remove the repo entry → force-close Tachimanga → reopen → add the URL again → **Browse → Extensions → refresh**. Install **Comix English 1.6.124**. Confirm Web View still works, then update **Reborn Rich**.
+Needs Tachimanga **4.16 or newer** (extension library 1.6). Remove the repo entry → force-close Tachimanga → reopen → add the URL again → **Browse → Extensions → refresh**. Install **Comix English 1.6.125**. Confirm Web View still works, then update **Reborn Rich** (Webtoon).
 
 ### Manual install
 
