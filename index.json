@@ -8,13 +8,13 @@
       "name": "Comix",
       "packageName": "eu.kanade.tachiyomi.extension.en.comix",
       "resources": {
-        "apkUrl": "https://github.com/joclio/extensions/releases/download/v1.6.134/tachiyomi-en.comix-v1.6.134.jar",
+        "apkUrl": "https://github.com/joclio/extensions/releases/download/v1.6.135/tachiyomi-en.comix-v1.6.135.jar",
         "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/comix/res/mipmap-xhdpi/ic_launcher.png",
-        "jarUrl": "https://github.com/joclio/extensions/releases/download/v1.6.134/tachiyomi-en.comix-v1.6.134.jar"
+        "jarUrl": "https://github.com/joclio/extensions/releases/download/v1.6.135/tachiyomi-en.comix-v1.6.135.jar"
       },
       "extensionLib": "1.6",
-      "versionCode": "106134",
-      "versionName": "1.6.134",
+      "versionCode": "106135",
+      "versionName": "1.6.135",
       "contentWarning": "CONTENT_WARNING_MIXED",
       "sources": [{
         "id": "7537715367149829912",
