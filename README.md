@@ -2,7 +2,7 @@
 
 Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (published extension **1.6.54**).
 
-**joclio build:** **v1.6.111** (`versionCode` 106111). Keeps the working reader/WebView from **1.6.110**, and fixes chapter refresh by calling Comix’s hidden GET client directly (the old chapter-method + tap path no longer exists on the live site).
+**joclio build:** **v1.6.112** (`versionCode` 106112). Chapter refresh posts within a short deadline (newest pages only), so Tachimanga no longer waits until the WebView times out.
 
 ## Install on Tachimanga (iPad/iPhone)
 
@@ -12,7 +12,7 @@ Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (pu
 https://raw.githubusercontent.com/joclio/extensions/main/index.pb
 ```
 
-Needs Tachimanga **4.16 or newer** (extension library 1.6). Remove the repo entry → force-close Tachimanga → reopen → add the URL again → **Browse → Extensions → refresh**. Install **Comix English 1.6.111**. Uninstall any older Comix first, including the Keiyoushi **1.6.54** row, so only one copy is loaded. The `index.min.json` address now downloads this same jar.
+Needs Tachimanga **4.16 or newer** (extension library 1.6). Remove the repo entry → force-close Tachimanga → reopen → add the URL again → **Browse → Extensions → refresh**. Install **Comix English 1.6.112**. Uninstall any older Comix first, including the Keiyoushi **1.6.54** row, so only one copy is loaded. The `index.min.json` address now downloads this same jar.
 
 ### Manual install
 
