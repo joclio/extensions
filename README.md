@@ -2,7 +2,7 @@
 
 Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (published extension **1.6.54**).
 
-**joclio build:** **v1.6.117** (`versionCode` 106117). Same reader/WebView as **1.6.116**. Chapter refresh only reads the chapter rows already drawn on the manga page (no Comix API calls from the extension).
+**joclio build:** **v1.6.118** (`versionCode` 106118). After checking the real app path: OkHttp HTML has no chapter rows, so WebView must let the site paint them, then we scrape. Wait raised to 90s; stale-date skip disabled; still no extension API calls.
 
 ## Install on Tachimanga (iPad/iPhone)
 
@@ -12,7 +12,7 @@ Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (pu
 https://raw.githubusercontent.com/joclio/extensions/main/index.pb
 ```
 
-Needs Tachimanga **4.16 or newer** (extension library 1.6). Remove the repo entry → force-close Tachimanga → reopen → add the URL again → **Browse → Extensions → refresh**. Install **Comix English 1.6.117**. Reader/WebView must show the normal Comix site first; then pull updates. This build only scrapes on-page chapter rows (verified locally in the browser).
+Needs Tachimanga **4.16 or newer** (extension library 1.6). Remove the repo entry → force-close Tachimanga → reopen → add the URL again → **Browse → Extensions → refresh**. Install **Comix English 1.6.118**. Web View must show the normal Comix site (not third-party). Then update a series.
 
 ### Manual install
 
