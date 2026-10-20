@@ -2,7 +2,7 @@
 
 Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (published extension **1.6.54**).
 
-**joclio build:** **v1.6.130** (ersionCode 106130). Restores the exact 1.6.119 site_api.js (WebView/reader). Chapter refresh still uses signed GET + WebToon group_id, but only inside chapter_list.js.
+**joclio build:** **v1.6.131** (ersionCode 106131). Exact **1.6.119** WebView/reader baseline (no chapter experiments). Use this to clear the third-party WebView block.
 
 ## Install on Tachimanga (iPad/iPhone)
 
@@ -12,9 +12,9 @@ Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (pu
 https://raw.githubusercontent.com/joclio/extensions/main/index.pb
 `
 
-Needs Tachimanga **4.16 or newer** (extension library 1.6). Remove the repo entry → force-close Tachimanga → reopen → add the URL again → **Browse → Extensions → refresh**. Install **Comix English 1.6.130**.
+Needs Tachimanga **4.16 or newer** (extension library 1.6). Remove the repo entry → force-close Tachimanga → reopen → add the URL again → **Browse → Extensions → refresh**. Install **Comix English 1.6.131**.
 
-If Web View still shows **Third-party apps are not supported**, open Web View and wait until the normal Comix site loads (or clear site data for comix.to), then update **Reborn Rich**.
+Then clear the blocked session: open **Web View** → site settings / clear data for comix.to if available, or force-close the app and open Web View again until the normal Comix page loads (not “Third-party apps”).
 
 ### Manual install
 
