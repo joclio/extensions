@@ -2,7 +2,7 @@
 
 Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (published extension **1.6.54**).
 
-**joclio build:** **v1.6.133** (ersionCode 106133). Exact **1.6.119** WebView/reader baseline again. Direct chapter API calls from 1.6.132 are abandoned (they timeout and trigger third-party blocks).
+**joclio build:** **v1.6.134** (ersionCode 106134). WebView/reader = 1.6.119 baseline. Chapter refresh is **UI-only**: taps All groups → WebToon and captures the site's own requests (no extension API GETs).
 
 ## Install on Tachimanga (iPad/iPhone)
 
@@ -12,9 +12,9 @@ Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (pu
 https://raw.githubusercontent.com/joclio/extensions/main/index.pb
 `
 
-Needs Tachimanga **4.16 or newer** (extension library 1.6). Remove the repo entry → force-close Tachimanga → reopen → add the URL again → **Browse → Extensions → refresh**. Install **Comix English 1.6.133**.
+Needs Tachimanga **4.16 or newer** (extension library 1.6). Remove the repo entry → force-close Tachimanga → reopen → add the URL again → **Browse → Extensions → refresh**. Install **Comix English 1.6.134**.
 
-Clear the block: open **Web View** until the normal Comix site loads (clear comix.to site data if needed). Do **not** keep retrying chapter refresh until Web View is clean.
+Confirm **Web View** is clean first, then update **Reborn Rich** once. If third-party appears, Clear cookies in Web View before retrying.
 
 ### Manual install
 
