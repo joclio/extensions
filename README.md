@@ -2,7 +2,7 @@
 
 Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (published extension **1.6.54**).
 
-**joclio build:** **v1.6.126** (`versionCode` 106126). Same WebView/reader as 1.6.119. Fixes chapter refresh silently failing when the payload was too large for Tachimanga’s WebView bridge (slim chapters, drop unused `queries` blob), and still walks past the first known chapter so Webtoon can catch up.
+**joclio build:** **v1.6.127** (`versionCode` 106127). Tachimanga’s per-manga scanlator filter is **not** sent to extensions. This build infers your lagging group from the library (e.g. Webtoon at 195 while HiveToons is ahead) and fetches/updates that group.
 
 ## Install on Tachimanga (iPad/iPhone)
 
@@ -12,7 +12,7 @@ Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (pu
 https://raw.githubusercontent.com/joclio/extensions/main/index.pb
 ```
 
-Needs Tachimanga **4.16 or newer** (extension library 1.6). Remove the repo entry → force-close Tachimanga → reopen → add the URL again → **Browse → Extensions → refresh**. Install **Comix English 1.6.126**. Confirm Web View still works, then update **Reborn Rich** (Webtoon). Allow extra time on the update.
+Needs Tachimanga **4.16 or newer** (extension library 1.6). Remove the repo entry → force-close Tachimanga → reopen → add the URL again → **Browse → Extensions → refresh**. Install **Comix English 1.6.127**. Confirm Web View still works, then update **Reborn Rich**. Allow extra time.
 
 ### Manual install
 
