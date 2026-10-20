@@ -1,9 +1,7 @@
 # Comix extension (joclio)
 
-**joclio build:** **v1.6.143**. Passive chapter capture + same-length null-safe memo helpers (fixes NPE without VerifyError). Skip 1.6.141.
+**joclio build:** **v1.6.144**. Passive chapter capture + ASM null-safe memo helpers (OpenJ9 StackMapTable). Skip 1.6.141 and 1.6.143 (VerifyError).
 
-`
-https://raw.githubusercontent.com/joclio/extensions/main/index.pb
-`
+Repo: https://github.com/joclio/extensions
 
-Install **1.6.143**, confirm Web View, update Reborn Rich.
+Install **1.6.144**, confirm Web View, update Reborn Rich.
