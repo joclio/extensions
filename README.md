@@ -2,7 +2,7 @@
 
 Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (published extension **1.6.54**).
 
-**joclio build:** **v1.6.118** (`versionCode` 106118). After checking the real app path: OkHttp HTML has no chapter rows, so WebView must let the site paint them, then we scrape. Wait raised to 90s; stale-date skip disabled; still no extension API calls.
+**joclio build:** **v1.6.119** (`versionCode` 106119). Exact restore of **1.6.116** (last known working WebView/reader). 1.6.117–1.6.118 rolled back.
 
 ## Install on Tachimanga (iPad/iPhone)
 
@@ -12,7 +12,7 @@ Tracks **[Keiyoushi Comix](https://github.com/keiyoushi/extensions-source)** (pu
 https://raw.githubusercontent.com/joclio/extensions/main/index.pb
 ```
 
-Needs Tachimanga **4.16 or newer** (extension library 1.6). Remove the repo entry → force-close Tachimanga → reopen → add the URL again → **Browse → Extensions → refresh**. Install **Comix English 1.6.118**. Web View must show the normal Comix site (not third-party). Then update a series.
+Needs Tachimanga **4.16 or newer** (extension library 1.6). Remove the repo entry → force-close Tachimanga → reopen → add the URL again → **Browse → Extensions → refresh**. Uninstall Comix (117/118), force-close Tachimanga, install **only 1.6.119**, then open Web View until the normal Comix site loads.
 
 ### Manual install
 
