@@ -1,9 +1,9 @@
 # Comix extension (joclio)
 
-**joclio build:** **v1.6.142**. Reverts broken 1.6.141 bytecode (VerifyError). Passive capture like 1.6.140; do not install 1.6.141.
+**joclio build:** **v1.6.143**. Passive chapter capture + same-length null-safe memo helpers (fixes NPE without VerifyError). Skip 1.6.141.
 
-
+`
 https://raw.githubusercontent.com/joclio/extensions/main/index.pb
+`
 
-
-Install **1.6.142** only.
+Install **1.6.143**, confirm Web View, update Reborn Rich.
